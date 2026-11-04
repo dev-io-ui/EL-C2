@@ -34,13 +34,13 @@
 
 
 
-let a = 10;
-let b = "20";
+// let a = 10;
+// let b = "20";
 
-console.log(a + b);
+// console.log(a + b);
 
-console.log(5 == "5"); // only value should be same for loose equality
-console.log(5 === "5");// Datatype as well as value should be same for strict equality
+// console.log(5 == "5"); // only value should be same for loose equality
+// console.log(5 === "5");// Datatype as well as value should be same for strict equality
 
 
 //Arth
@@ -110,20 +110,108 @@ console.log(5 === "5");// Datatype as well as value should be same for strict eq
 // }
 
 
-let button = 2;
+// let button = 2;
 
-switch(button){
-    case 1:
-         console.log("Check your Bal");
-         break;
-    case 2: 
-        console.log("Withdraw your Bal");
-        break;
-    case 3: 
-        console.log("Deposit your Bal");
-        break;
-    case 4: 
-        console.log("Exit");
-        break;
-    default: console.log("Error from your side");
+// switch(button){
+//     case 1:
+//          console.log("Check your Bal");
+//          break;
+//     case 2: 
+//         console.log("Withdraw your Bal");
+//         break;
+//     case 3: 
+//         console.log("Deposit your Bal");
+//         break;
+//     case 4: 
+//         console.log("Exit");
+//         break;
+//     default: console.log("Error from your side");
+// }
+
+
+
+// for(let i = 1; i <=10; i++){
+//     console.log(i);
+// }
+
+// for (let i=1;i<=10;i++){
+//    if(i%2 == 0 ){
+//      console.log(i);
+//    }
+// }
+
+
+//prime no , 
+
+
+// let num = 7;
+// let isPrime = true;
+
+
+// while(isPrime){
+
+
+// }
+// let day = "Sunday";
+// let notHoliday = true;
+// while(notHoliday){
+//     if(day === "Sunday"){
+//         console.log("Today is Holiday");
+//         notHoliday = false;
+//     }
+// }
+
+// console.log("Outside the loop");
+
+
+// function greetingToStudents(name)
+// {
+//     console.log(`Hello ${name}` );
+// }
+
+// greetingToStudents("Akash");
+// greetingToStudents("Dev");
+// greetingToStudents("Mansi");
+
+
+
+
+// function isStudent() {
+//     console.log("hello");
+// }
+
+
+// isStudent(); //sir this is code is not giving any output
+
+
+// let students =["Akash","Dev","Virat","Mansi","Rohit","Rohit","Rohit","Rohit","Rohit","Rohit","Rohit","Rohit","Rohit","Rohit","Rohit","Harry"];
+
+//     students.push("Harry");
+//     students[0] = "Yash";
+//     students.pop();
+
+//     for(let i = 0 ; i < students.length;i++){
+//         console.log(students[i]);
+//     }
+
+let student ={
+    name: "Akash",
+    age: 22,
+    fees: 10000,
+    techStack: ["HTML","CSS","JS"],
 }
+
+student.age =50;
+student.progress = 80;
+
+// console.log(student.name);
+// console.log(student.age);
+// console.log(student.techStack[1]);
+// console.log(student.progress);
+
+ let key = Object.keys(student);
+ console.log(key);
+
+ for(let i = 0 ; i < key.length;i++){
+     console.log(key[i] + ": " + student[key[i]]);
+ }
